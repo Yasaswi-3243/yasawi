@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! Wish</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<canvas id="c"></canvas>
+<audio id="backgroundAudio" loop>
+    <source src="Song (mp3cut.net).mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+<button id="playButton" style="display:none; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 20px 40px; font-size: 20px; background-color:black; color:white; border:none;outline:none;cursor:pointer ">Play Video</button>
+<video id="videoPlayer" style="display:none; width: 100vw; height: 100vh; position: fixed; top: 0; left: 0;" controls muted>
+    <source src="2024-10-30_17:08:11_video.MP4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<!-- JavaScript -->
+<script src="index.js"></script>
+
+<!-- Whole Code Credit: https://codepen.io/robin-ivi -->
+<!-- Thanks Er Robin!-->
+</body>
+</html>
